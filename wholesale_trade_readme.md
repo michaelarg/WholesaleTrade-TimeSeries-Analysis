@@ -20,7 +20,7 @@
 
 ---
 
-## 🌟 Project Abstract
+## 1 🌟 Project Abstract
 This repository contains an automated diagnostic analysis of the U.S. Wholesale Trade Sector (NAICS 42) health, translating raw U.S. Census Bureau time series data (1992–Present) into actionable economic signals. The project utilizes a reproducible Python script to clean and process data, calculate two crucial metrics—the Inventory-to-Sales (I/S) Ratio and Year-over-Year (YoY) Sales Growth—and outputs a final dataset for immediate visualization.
 
 The resulting Tableau dashboard provides clear, objective insights, allowing users to instantly assess **inventory risk** (by comparing the I/S Ratio to its historical average) and **market momentum** (by tracking YoY growth against the 0% contraction baseline).
