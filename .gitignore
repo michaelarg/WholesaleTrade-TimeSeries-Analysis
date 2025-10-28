@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PyCharm specific files
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
