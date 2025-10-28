@@ -61,3 +61,51 @@ CHARTS_PATH = PROJECT_ROOT / 'charts'
 # Input Files
 SALES_FILE = RAW_DATA_PATH / "Sales_Adjusted.csv"
 INVENTORIES_FILE = RAW_DATA_PATH / "Inventories_Adjusted.csv"
+
+3.2. Data Loading and Cleaning Pipeline
+
+Code Section: Data Loading and Header Correction
+
+def load_and_clean_data(file_path: Path, column_name: str) -> pd.DataFrame:
+    # Loads raw U.S. Census Bureau CSV files...
+    try:
+        df = pd.read_csv(file_path, header=16)
+    # ...
+
+3.3. Core Processing and Metric Calculation
+
+Code Section: Data Merging
+
+# Merge both DataFrames by Date
+merged_df = pd.merge(sales_df, inventories_df, on='Date', how='inner')
+
+
+Code Section: Inventory-to-Sales (I/S) Ratio Calculation
+
+# Key Metric Calculations
+merged_df['Inventories_to_Sales_Ratio_Nominal'] = (
+    merged_df['Inventories_Total_Nominal'] / merged_df['Sales_Total_Nominal']
+)
+
+
+Explanation:
+Formula: I/S Ratio = (Inventories_Nominal) / (Sales_Nominal)
+
+Code Section: Year-over-Year (YoY) Sales Growth Calculation
+
+merged_df['Sales_YoY_Growth'] = merged_df['Sales_Total_Nominal'].pct_change(periods=12) * 100
+
+
+Explanation:
+Formula: YoY Growth = ((Sales_Current - Sales_12_Months_Ago) / Sales_12_Months_Ago) * 100
+
+3.4. Chart Generation (Verification)
+
+Code Section: Chart 3 Setup (YoY Growth Example)
+
+# 3. YoY Sales Growth
+plt.figure(figsize=(12, 6))
+growth_df = df.dropna(subset=['Sales_YoY_Growth'])
+plt.plot(growth_df['Date'], growth_df['Sales_YoY_Growth'], color='#2ca02c', label='YoY Sales Growth')
+plt.axhline(0, color='red', linestyle='-', linewidth=1)
+# ... title, labels, savefig ...
