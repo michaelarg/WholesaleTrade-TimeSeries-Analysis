@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66f0c7ad-35d1-4327-b9af-7a57462bc22d" name="Changes" comment="Sets up the project file structure">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analysis_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="66f0c7ad-35d1-4327-b9af-7a57462bc22d" name="Changes" comment="chore: Finalize project structure and add raw data&#10;&#10;Sets up .gitignore, placeholders (.gitkeep) for output folders, and populates the data/raw/ directory with the required Sales_Adjusted.csv and Inventories_Adjusted.csv files. Updates README.md with project details." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,11 +72,20 @@
       <option name="project" value="LOCAL" />
       <updated>1761637014211</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chore: Finalize project structure and add raw data&#10;&#10;Sets up .gitignore, placeholders (.gitkeep) for output folders, and populates the data/raw/ directory with the required Sales_Adjusted.csv and Inventories_Adjusted.csv files. Updates README.md with project details.">
+      <option name="closed" value="true" />
+      <created>1761639895017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761639895017</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sets up the project file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sets up the project file structure" />
+    <MESSAGE value="chore: Finalize project structure and add raw data&#10;&#10;Sets up .gitignore, placeholders (.gitkeep) for output folders, and populates the data/raw/ directory with the required Sales_Adjusted.csv and Inventories_Adjusted.csv files. Updates README.md with project details." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Finalize project structure and add raw data&#10;&#10;Sets up .gitignore, placeholders (.gitkeep) for output folders, and populates the data/raw/ directory with the required Sales_Adjusted.csv and Inventories_Adjusted.csv files. Updates README.md with project details." />
   </component>
 </project>
