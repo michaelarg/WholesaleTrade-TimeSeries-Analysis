@@ -1,6 +1,4 @@
 # 📊 WholesaleTrade_TimeSeries_Analysis
-## U.S. Wholesale Trade Sales & Inventory Health
-
 ---
 
 ## 📑 Table of Contents
