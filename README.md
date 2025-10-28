@@ -51,3 +51,13 @@ import os
 
 # Ensures the script works regardless of where it’s run from
 PROJECT_ROOT = Path(__file__).parent.parent
+
+Code Section: Path Definitions
+# Define key directories
+RAW_DATA_PATH = PROJECT_ROOT / 'data' / 'raw'
+PROCESSED_DATA_PATH = PROJECT_ROOT / 'data' / 'processed'
+CHARTS_PATH = PROJECT_ROOT / 'charts'
+
+# Input Files
+SALES_FILE = RAW_DATA_PATH / "Sales_Adjusted.csv"
+INVENTORIES_FILE = RAW_DATA_PATH / "Inventories_Adjusted.csv"
