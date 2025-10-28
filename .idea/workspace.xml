@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66f0c7ad-35d1-4327-b9af-7a57462bc22d" name="Changes" comment="Complete End-to-End WTS Diagnostic Workflow&#10;&#10;- Executed and validated final Python script logic (analysis_script.py).&#10;- Generated and verified 'merged_wts_data_nominal.csv' output file.&#10;- Documented sequential steps: Python execution, Tableau data connection, and all four chart builds.&#10;- Finalized project documentation, including Key Analytical Findings.">
+    <list default="true" id="66f0c7ad-35d1-4327-b9af-7a57462bc22d" name="Changes" comment="added an updated readme file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761657217722</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added an updated readme file">
+      <option name="closed" value="true" />
+      <created>1761661693557</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761661693557</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,6 +146,7 @@
     <MESSAGE value="chore: Finalize project structure and add raw data&#10;&#10;Sets up .gitignore, placeholders (.gitkeep) for output folders, and populates the data/raw/ directory with the required Sales_Adjusted.csv and Inventories_Adjusted.csv files. Updates README.md with project details." />
     <MESSAGE value="data: Add core adjusted sales and inventory CSV data" />
     <MESSAGE value="Complete End-to-End WTS Diagnostic Workflow&#10;&#10;- Executed and validated final Python script logic (analysis_script.py).&#10;- Generated and verified 'merged_wts_data_nominal.csv' output file.&#10;- Documented sequential steps: Python execution, Tableau data connection, and all four chart builds.&#10;- Finalized project documentation, including Key Analytical Findings." />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete End-to-End WTS Diagnostic Workflow&#10;&#10;- Executed and validated final Python script logic (analysis_script.py).&#10;- Generated and verified 'merged_wts_data_nominal.csv' output file.&#10;- Documented sequential steps: Python execution, Tableau data connection, and all four chart builds.&#10;- Finalized project documentation, including Key Analytical Findings." />
+    <MESSAGE value="added an updated readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added an updated readme file" />
   </component>
 </project>
