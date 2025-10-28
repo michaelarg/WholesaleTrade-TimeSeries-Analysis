@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66f0c7ad-35d1-4327-b9af-7a57462bc22d" name="Changes" comment="chore: Finalize project structure and add raw data&#10;&#10;Sets up .gitignore, placeholders (.gitkeep) for output folders, and populates the data/raw/ directory with the required Sales_Adjusted.csv and Inventories_Adjusted.csv files. Updates README.md with project details." />
+    <list default="true" id="66f0c7ad-35d1-4327-b9af-7a57462bc22d" name="Changes" comment="data: Add core adjusted sales and inventory CSV data">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis_script.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,11 +48,42 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.analysis_script.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="analysis_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WholesaleTrade-TimeSeries-Analysis" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\haile\PycharmProjects\WholesaleTrade-TimeSeries-Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/analysis_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.analysis_script" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,12 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1761639895017</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="data: Add core adjusted sales and inventory CSV data">
+      <option name="closed" value="true" />
+      <created>1761640399499</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761640399499</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sets up the project file structure" />
     <MESSAGE value="chore: Finalize project structure and add raw data&#10;&#10;Sets up .gitignore, placeholders (.gitkeep) for output folders, and populates the data/raw/ directory with the required Sales_Adjusted.csv and Inventories_Adjusted.csv files. Updates README.md with project details." />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: Finalize project structure and add raw data&#10;&#10;Sets up .gitignore, placeholders (.gitkeep) for output folders, and populates the data/raw/ directory with the required Sales_Adjusted.csv and Inventories_Adjusted.csv files. Updates README.md with project details." />
+    <MESSAGE value="data: Add core adjusted sales and inventory CSV data" />
+    <option name="LAST_COMMIT_MESSAGE" value="data: Add core adjusted sales and inventory CSV data" />
   </component>
 </project>
