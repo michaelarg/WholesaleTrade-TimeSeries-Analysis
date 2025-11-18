@@ -1,7 +1,7 @@
-# 📊 WholesaleTrade_TimeSeries_Analysis
+#  WholesaleTrade_TimeSeries_Analysis
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 1. [Project Abstract](#-project-abstract)
 2. [Problem Statement: Diagnostic Analysis of Wholesale Trade Health](#-problem-statement-diagnostic-analysis-of-wholesale-trade-health)
 3. [Significance: Data Objectives and Utility](#-significance-data-objectives-and-utility)
@@ -19,14 +19,14 @@
 
 ---
 
-## 1 Project Abstract
+## 1. Project Abstract
 This repository contains an automated diagnostic analysis of the U.S. Wholesale Trade Sector (NAICS 42) health, translating raw U.S. Census Bureau time series data (1992–Present) into actionable economic signals. The project utilizes a reproducible Python script to clean and process data, calculate two crucial metrics—the Inventory-to-Sales (I/S) Ratio and Year-over-Year (YoY) Sales Growth—and outputs a final dataset for immediate visualization.
 
 The resulting Tableau dashboard provides clear, objective insights, allowing users to instantly assess **inventory risk** (by comparing the I/S Ratio to its historical average) and **market momentum** (by tracking YoY growth against the 0% contraction baseline).
 
 ---
 
-## 2 Problem Statement: Diagnostic Analysis of Wholesale Trade Health
+## 2. Problem Statement: Diagnostic Analysis of Wholesale Trade Health
 This project addresses the need for a rapid, objective assessment of the wholesale sector's health. The Python analysis pipeline transforms complex, raw government data into four simple, easy-to-read charts that provide immediate clarity on the sector's current financial and supply/demand dynamics.
 
 The analysis is structured to answer two critical, practical questions using the full historical dataset (1992–Present):
@@ -41,7 +41,7 @@ The analysis is structured to answer two critical, practical questions using the
 
 ---
 
-## 3 Significance: Data Objectives and Utility
+## 3. Significance: Data Objectives and Utility
 The significance of this project lies in its ability to translate raw government data into clear, objective signals, bypassing subjective interpretation of large datasets. The analysis serves three primary utility goals:
 
 ### Quantify Inventory Balance (Risk Indicator)
@@ -55,7 +55,7 @@ Provides long-term context (Nominal Sales Trend) and validates the I/S Ratio by 
 
 ---
 
-## 4 Configuration and Methodology
+## 4. Configuration and Methodology
 This project processes monthly time series data for Total Merchant Wholesalers (NAICS 42), specifically the Seasonally Adjusted Nominal Estimates in millions of dollars, sourced from the [U.S. Census Bureau](https://www.census.gov/wholesale/current/index.html).
 
 ### Data Acquisition and Preparation
@@ -104,7 +104,7 @@ plt.axhline(0, color='red', linestyle='-', linewidth=1)
 
 ---
 
-## 5 Tableau Dashboard Documentation
+## 5. Tableau Dashboard Documentation
 The final output (`merged_wts_data_nominal.csv`) is visualized in Tableau through four analytical charts.
 
 ### 5.1 Chart 1: Nominal Sales Trend (Context)
@@ -133,7 +133,7 @@ The final output (`merged_wts_data_nominal.csv`) is visualized in Tableau throug
 
 ---
 
-## 6 Key Analytical Findings
+## 6. Key Analytical Findings
 ### A. Sales Momentum Assessment (YoY Growth)
 - **Contraction Signal:** When YoY Growth < 0%, the market is contracting.  
 - **Historical Validation:** Matches the 2008 and 2020 economic downturns.
@@ -148,7 +148,7 @@ The final output (`merged_wts_data_nominal.csv`) is visualized in Tableau throug
 
 ---
 
-## 7 Contact
+## 7. Contact
 **Author:** Michael Arg.  
 **Email:** michgw7@gmail.com
 
